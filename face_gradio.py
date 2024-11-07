@@ -29,4 +29,4 @@ def main():
 
 if __name__ == "__main__":
     face_detect_demo = main()
-    face_detect_demo.launch()
+    face_detect_demo.launch(server_port=7998, server_name='0.0.0.0')

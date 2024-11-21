@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "236f0ded-ef7b-4c8c-9481-e8ee49d54ebb",
+		"name": "face",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32237079"
+	},
+	"item": [
+		{
+			"name": "detectface",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "faceid",
+							"value": "001",
+							"type": "text"
+						},
+						{
+							"key": "facefile",
+							"type": "file",
+							"src": "/C:/Users/WangRuihua/Pictures/照片/屏幕截图 2023-12-19 180118.png"
+						}
+					]
+				},
+				"url": "http://chat.jyd.com.cn/face_detect/detectface"
+			},
+			"response": []
+		}
+	]
+}

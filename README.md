@@ -1,5 +1,8 @@
 # 人脸检测
 
+## 创建环境（建议）
+conda create -n face python==3.8
+
 ## 安装 cmake 工具
 ```python
 sudo apt update  # 更新软件包索引

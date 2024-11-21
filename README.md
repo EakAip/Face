@@ -11,7 +11,7 @@ sudo apt install cmake  # cmake 是一个跨平台的构建系统，常用于编
 
 ## 安装依赖包
 ```python
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 运行

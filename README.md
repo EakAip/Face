@@ -1,7 +1,9 @@
 # 人脸检测
 
 ## 创建环境（建议）
+```python
 conda create -n face python==3.8
+```
 
 ## 安装 cmake 工具
 ```python

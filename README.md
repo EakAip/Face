@@ -5,6 +5,10 @@
 conda create -n face python==3.8
 ```
 
+```python
+conda activate face
+```
+
 ## 安装 cmake 工具
 ```python
 sudo apt update  # 更新软件包索引

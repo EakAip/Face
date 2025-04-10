@@ -1,2 +1,3 @@
 face_recognition==1.3.0
 flask==2.2.5
+conda-pack
